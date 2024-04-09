@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
-export const SERVER_DOMAIN = 'https://auth-app-server-anton-ss-projects-4d75c44a.vercel.app/';
+// export const SERVER_DOMAIN = 'https://auth-app-server-anton-ss-projects-4d75c44a.vercel.app/';
+export const SERVER_DOMAIN = 'https://auth-app-server-am7o.onrender.com';
 
 export const ACTIVATION_ACCOUNT_WAY = 'account-activation';
 export const ACTIVATION_PASSWORD_WAY = 'password-activation';
