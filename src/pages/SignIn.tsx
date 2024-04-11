@@ -52,7 +52,7 @@ export default function SignIn() {
     const { user, accessToken } = res;
 
     accessTokenService.save(accessToken);
-    dispatch(setUserAndMethod({ user, method: LoginMethod.Def}));
+    dispatch(setUserAndMethod({ user, method: LoginMethod.Def }));
 
     return navigate(location.state?.from?.pathname || '/profile');
   };
